@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtnIntegration", "FtnIntegration\FtnIntegration.csproj", "{F9E0861E-784A-4DC6-8903-C31584786338}"
 EndProject
 Project("{9AE66E24-D2D9-4FF2-AB7F-CE79F20F2B8B}") = "FortranCore", "FortranCore\FortranCore.ftn95p", "{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F9E0861E-784A-4DC6-8903-C31584786338} = {F9E0861E-784A-4DC6-8903-C31584786338}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -24,6 +24,11 @@ namespace FtnIntegration
             input = input*2;
         }
 
+        public static void PrintNumber(int input)
+        {
+            Console.WriteLine(input);
+        }
+
         public static void Press()
         {
             Console.ReadLine();

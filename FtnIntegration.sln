@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtnIntegration", "FtnIntegration\FtnIntegration.csproj", "{F9E0861E-784A-4DC6-8903-C31584786338}"
+EndProject
+Project("{9AE66E24-D2D9-4FF2-AB7F-CE79F20F2B8B}") = "FortranCore", "FortranCore\FortranCore.ftn95p", "{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CheckMate|.NET = CheckMate|.NET
+		Debug|.NET = Debug|.NET
+		Release|.NET = Release|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9E0861E-784A-4DC6-8903-C31584786338}.CheckMate|.NET.ActiveCfg = Release|Any CPU
+		{F9E0861E-784A-4DC6-8903-C31584786338}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{F9E0861E-784A-4DC6-8903-C31584786338}.Release|.NET.ActiveCfg = Release|Any CPU
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.CheckMate|.NET.ActiveCfg = CheckMate|.NET
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.CheckMate|.NET.Build.0 = CheckMate|.NET
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.Debug|.NET.Build.0 = Debug|.NET
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.Release|.NET.ActiveCfg = Release|.NET
+		{F676CEA0-25F7-4814-9C3D-D11C0D8D8A44}.Release|.NET.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
